@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
           ),
           body: Center(
             child: Container(
-              child: Text('$_counter'),
+              child: Text('this is the second test' + '$_counter'),
             ),
           ),
           floatingActionButton: FloatingActionButton(
